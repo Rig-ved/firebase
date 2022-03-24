@@ -1,0 +1,16 @@
+mat-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin:2em auto
+
+}
+:host {
+  display: block;
+}
+
+.item {
+  margin-bottom: 2em;
+  cursor: pointer;
+}
