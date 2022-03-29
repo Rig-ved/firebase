@@ -30,8 +30,7 @@ export class AppComponent implements OnInit {
   }
   ngOnInit(): void {
     const time = moment.utc();
-    alert("Hey new deployed app");
-    alert("The time is new")
+    prompt("Enter the value");
   }
 
   ProgressEnum: typeof ProgressType = ProgressType
